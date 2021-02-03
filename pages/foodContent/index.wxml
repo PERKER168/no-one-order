@@ -1,0 +1,8 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view class="p_img">
+  <image src="{{host}}{{foodData.img_url}}"></image>
+</view>
+<view class="h2">{{foodData.title}}</view>
+<view class="content">
+  <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+</view>

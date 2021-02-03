@@ -1,0 +1,16 @@
+/* pages/foodContent/index.wxss */
+@import "../../wxParse/wxParse.wxss";
+
+.h2 {
+  text-align: left;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 36rpx;
+}
+
+.content {
+  font-size: 32rpx;
+  color: #666666;
+  line-height: 2;
+  padding: 20rpx;
+}

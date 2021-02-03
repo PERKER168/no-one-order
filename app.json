@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/food/index",
+    "pages/foodContent/index",
+    "pages/index/index", 
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "无人点餐",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "backgroundColor": "#eee",
+    "borderStyle": "white",
+    "list": [
+      { 
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home-active.png"
+      },
+      { 
+        "pagePath": "pages/food/index",
+        "text": "菜品",
+        "iconPath": "static/images/tabbar/food.png",
+        "selectedIconPath": "static/images/tabbar/food-active.png"
+      },
+      { 
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "static/images/tabbar/user.png",
+        "selectedIconPath": "static/images/tabbar/user-active.png"
+      }
+    ]
+  }
+}
